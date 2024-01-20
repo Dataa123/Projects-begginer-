@@ -1,0 +1,174 @@
+@import url(https://db.onlinewebfonts.com/c/6d32b8e06f40fb7698cfb714b9e7975d?family=Billabong+W00+Regular);
+@import url(https://db.onlinewebfonts.com/c/1fed4454352f201d52b65ca5480afb2d?family=Playlist-Script);
+@import url(https://db.onlinewebfonts.com/c/bf9f5d50c1b928ff21436517a1a95ad9?family=Proxima+Nova);
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+
+#bigbox{
+    background-color: white;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.205);
+    border-width: 1px;
+    width: 360px;
+    height: 690px;
+    position: relative;
+    left: 750px;
+}
+#bigbox h1{
+    font-family: instrument serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 45px;
+    position: relative;
+    top: 5px;
+}
+#bigbox p{
+    font-family: proxima nova;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.541);
+    text-align: center;
+    font-size: 19px;
+    position: relative;
+    top: -10px;
+}
+#bigbox button{
+    background-color: rgb(0,149,246);
+    border: none;
+    height: 38px;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+#bigbox button:hover{
+    background-color: rgb(0, 110, 184);
+    transition-duration: 0.3s;
+}
+p#login{
+    color: white;
+    position: relative;
+    top: -29px;
+    left: 15px;
+    font-weight: 500;
+    font-size: 16px;
+}
+#fb{
+    position: relative;
+    right: 80px;
+    top: 7px;
+}
+#fbbutton{
+    position: relative;
+    right: 20px;
+}
+#hr1{
+    width: 110px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.13);
+    border: none;
+    position: relative;
+    right: 90px;
+    top: 14px;
+}
+#hr2{
+    width: 110px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.13);
+    border: none;
+    position: relative;
+    right: -90px;
+    top: -35px;
+}
+p#or{
+    position: relative;
+    top: -10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.forms{
+    background-color: rgba(128, 128, 128, 0.096);
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.171);
+    height: 38px;
+    width: 300px;
+    position: relative;
+    left: 25px;
+    top: -20px;
+    margin: 3px;
+    border-radius: 2px;
+}
+.forms::placeholder{
+    position: absolute;
+    left: 10px;
+}
+p#people{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.504);
+}
+p#people b{
+    color: rgb(0, 91, 151);
+    cursor: pointer;
+    font-weight: 300;
+}
+p#people b:hover{
+    color: rgba(0, 153, 255, 0.89);
+    transition-duration: 0.2s;
+}
+p#by{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.504);
+}
+p#by b{
+    color: rgb(0, 91, 151);
+    cursor: pointer;
+    font-weight: 300;
+}
+p#by b:hover{
+    color: rgba(0, 153, 255, 0.89);
+    transition-duration: 0.2s;
+}
+#submit{
+    background-color: rgb(0,149,246);
+    border: none;
+    height: 38px;
+    width: 300px;
+    position: relative;
+    left: 30px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(0, 110, 184);
+    transition-duration: 0.3s;
+}
+#smallbox{
+    background-color: white;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.205);
+    border-width: 1px;
+    width: 360px;
+    height: 80px;
+    position: relative;
+    left: 750px;
+    top: 10px;
+}
+p#smallp{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    font-family: proxima nova;
+}
+p#smallp b{
+    color: rgb(0, 153, 255);
+    font-family: proxima nova;
+    cursor: pointer;
+}
+p#smallp b:hover{
+    color: rgb(98, 192, 255);
+    transition-duration: 0.2s;
+}
