@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'outfit';
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1a;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #2a2a2a;
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 25px black;
+}
+
+header h1{
+    font-size: 46px;
+    color: white;
+    text-shadow: 0 0 6px black;
+    background-color: transparent;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+
+.space{
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main img{
+    cursor: pointer;
+    transition: 0.4s;
+    filter: drop-shadow(0 0 15px black);
+    background-color: transparent;
+}
+
+main img:hover{
+    transform: scale(1.2);
+}
+
+main img:active{
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+
+.space h2{
+    padding: 50px 0 0 0;
+    font-size: 44px;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.pss .explain{
+    padding: 50px 0 0 20px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 15px rgb(126, 126, 126);
+}
+
+.pss .havefun{
+    padding: 50px 0 0 15px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 15px rgb(126, 126, 126);
+}
+
+.pss{
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.scores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scores p{
+    padding: 50px 0 0 20px;
+    font-size: 26px;
+    color: white;
+    text-shadow: 0 0 15px rgb(126, 126, 126);
+}
+
+.scorenumbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scorenumbers p{
+    padding: 50px 0 0 20px;
+    font-size: 26px;
+    color: white;
+    text-shadow: 0 0 15px rgb(126, 126, 126);
+}
+
+.container{
+    display: flex;
+    gap: 200px;
+}
+
+footer{
+    background-color: #2a2a2a;
+    height: 7vh;
+    width: 100%;
+    position: relative;
+    bottom: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 25px black;
+}
+
+footer p{
+    font-size: 26px;
+    color: white;
+    text-shadow: 0 0 25px black;
+}
+
+h6{
+    font-size: 26px;
+    color: white;
+    text-shadow: 0 0 25px white;
+    padding: 50px 0 0 0 ;
+}
+
+.image{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image div p{
+    font-size: 26px;
+    color: white;
+    text-shadow: 0 0 25px white;
+    
+}
+
+.image div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#changep{
+    font-size: 26px;
+    color: white;
+    text-shadow: 0 0 25px white;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: 18px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 50px;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+button:active{
+    transform: scale(0.9);
+    transition: 0.1s;
+
+}
